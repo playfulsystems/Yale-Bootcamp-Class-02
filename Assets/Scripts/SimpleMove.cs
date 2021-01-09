@@ -6,7 +6,7 @@ public class SimpleMove : MonoBehaviour
 {
     public float speed = 2f;
 
-    // common types of variables use in unity
+    // common types of variables used in unity
 
     /*
     bool isMoving;      // e.g. true, false
@@ -21,8 +21,6 @@ public class SimpleMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(speed);
-
         // demonstrating a function call with a parameter
         SayHi("Jonah");
     }
